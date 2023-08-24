@@ -1,26 +1,14 @@
 const regulations = {
-    "2018": {
-        "CSE": {
-            1: 24,
-            2: 25,
-            3: 23,
-            4: 24,
-            5: 25,
-            6: 24,
-            7: 23,
-            8: 24
-        },
-        "AI-ML": {
-            //... respective semester credits
-        },
-        "ECE": {
-            //... respective semester credits
-        }
+    '2018': {
+        'CSE': { 1: 20, 2: 21, 3: 24, 4: 26, 5: 22, 6: 25, 7: 12, 8: 10 },
+        'AI-ML': { 1: 20, 2: 21, 3: 24, 4: 26, 5: 22, 6: 25, 7: 12, 8: 10 },
+        'ECE': { 1: 20, 2: 21, 3: 24, 4: 22, 5: 23, 6: 24, 7: 16, 8: 10 },
     },
-    "2021": {
+    '2021': {
         //... similar structure for the 2021 regulation courses
-    }
+    },
 };
+
 
 document.getElementById('regulation').addEventListener('change', function() {
     const selectedRegulation = this.value;
